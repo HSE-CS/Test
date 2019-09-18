@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "task1.h"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello! How old are you?\n";

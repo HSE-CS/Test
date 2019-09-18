@@ -14,4 +14,5 @@ int main()
 	else {
 		std::cout << "Access denied";
 	}
+	return 0;
 }

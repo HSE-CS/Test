@@ -1,3 +1,3 @@
 #include <iostream>
 using namespace std;
-int checkAge(int age);
+int ageCheck(int age);

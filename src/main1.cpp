@@ -7,9 +7,9 @@ int main ()
     cout<<"Enter your age: ";
     cin>>age;
     if(ageCheck(age)) {
-        cout>>"Access granted!";
+        cout<<"Access granted!";
     } else {
-        cout>>"Access denied";
+        cout<<"Access denied";
     }
     return 0;
 }

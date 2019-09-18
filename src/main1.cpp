@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdio.h>
 #include "task1.h"
 using namespace std;
 

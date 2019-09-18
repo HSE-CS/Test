@@ -5,13 +5,8 @@ int ageCheck(int);
 int main()
 {
     int age;
-    char* str = "Input your age here";
-    cout << str<<'\n';
+    cout << "Input your age here"<<'\n';
     cin >> age;
-    if (ageCheck(age)){
-        cout<<"Access granted";
-    }else{
-        cout<<"Access denied";
-    }
+    cout<<(ageCheck(age)?"Access granted":"Access denied");
     return 0;
 }

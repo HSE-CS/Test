@@ -8,7 +8,7 @@ int main(){
 	int age;
 	int check;
 	cin >> age;
-	check = checkAge(age);
+	check = ageCheck(age);
 	if (check == 1){
 		cout << "Access granted";
 	}

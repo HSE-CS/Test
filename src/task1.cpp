@@ -1,6 +1,6 @@
 #define _CRT_SECURITY_NO_WARNINGS
 #include <iostream>
-#include "task.h"
+#include "task1.h"
 
 int ageCheck(int age) {
   if (age < 18) {

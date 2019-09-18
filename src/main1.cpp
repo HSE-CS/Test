@@ -1,7 +1,6 @@
 // checkage.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
 //
 
-#include "stdafx.h"
 #include "task1.h"
 using namespace std;
 

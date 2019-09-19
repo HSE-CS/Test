@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 	int n;
 	cin >> n;
-	if (ageCheck(int n) == 1){
+	if (ageCheck(n) == 1){
 		cout << "Access granted";
 	}
 	else{

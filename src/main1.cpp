@@ -1,9 +1,8 @@
 // main1.cpp: определяет точку входа для консольного приложения.
 //
 
-#include "stdafx.h"
 #include <iostream>
-#include "task1.cpp"
+#include "task1.h"
 using namespace std;
 
 int main(){
@@ -11,10 +10,12 @@ int main(){
 	std::cout << "Enter age: ";
 	cin >> age;
 
-	if (ageCheck(age) == 1){
-		cout << "Access granted\n";
+	if (ageCheck(age)){
+		cout << "Access granted";
 	}
-	else cout << "Access denied\n";
+	else {
+		cout << "Access denied";
+	}
 
 	
 	return 0;

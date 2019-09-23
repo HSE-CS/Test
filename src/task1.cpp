@@ -8,4 +8,4 @@ int ageCheck(int age) {
 		printf("Access denied");
 		return 0;
 	}
-}git 
+}

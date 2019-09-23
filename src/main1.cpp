@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void main()
+int main()
 {
 	int age;
 	cout << "how old are you?";

@@ -2,10 +2,14 @@
 #include "task1.h"
 #define _CRT_SECURE_NO_WARNINGS
 
-int main() {
+void main() {
 	int a = 0;
 	printf("Enter your age ");
 	scanf_s("%d",&a);
-	ageCheck(a);
-	return 0;
+	if(ageCheck(a)){
+	printf("Access granted");
+	}
+    else{
+	printf("Access denied");
+	}
 }

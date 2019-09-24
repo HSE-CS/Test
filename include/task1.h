@@ -1,5 +1,8 @@
 #pragma once
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <iostream> // библиотека дл€ ввода в консоль 
+#include <math.h> // библиотека отвечающа€ за математические операции 
+#include <ctime> // дл€ корректной работы функций srand & rand
+#include <cstring> // строковый тип 
+using namespace std; // "ѕространство имен", чтобы не использовать это перед cout & endl каждый раз, например 
 
 int ageCheck(int age);

@@ -1,15 +1,16 @@
 #include "task1.h"
 
-int main()
+/*  */
+
+int main() // точка входа в систему 
 {
+	setlocale(LC_ALL, "Ru");
+
 	int age;
-	printf("Enter your age\n");
-	scanf("%d", &age);
-
-	if (ageCheck(age) == 0)
-		printf("Access granted");
+	cin >> age;
+	if (ageCheck(age))
+		cout << "Access granted" << endl;
 	else
-		printf("Access denied");
+		cout << "Access denied" << endl;
 
-	return 0;
 }

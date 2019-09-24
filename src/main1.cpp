@@ -2,8 +2,6 @@
 
 #include <stdio.h>
 #include <conio.h>
-
-
 #include "task1.h"
 
 int main() {

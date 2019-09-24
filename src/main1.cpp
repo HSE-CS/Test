@@ -8,6 +8,10 @@ int main()
 	std::cin >> age;
 	if (ageCheck(age))
 	{
-		std::cout << "Welcome!";
+		std::cout << "Access granted";
+	}
+	else
+	{
+		std::cout << "Access denied";
 	}
 }

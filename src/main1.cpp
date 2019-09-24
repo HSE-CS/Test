@@ -1,39 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "task1.h"
+#include <iostream> 
+#include "task1.h" 
 
-void clean_stdin(void)
-{
-	int c = 0;
-	do {
-		c = getchar();
-	} while (c != '\n' && c != EOF);
-}
-
+using namespace std;
 
 int main()
 {
-	int age = 0;
-
-	while (1)
-	{
-		printf("How old are you?\n");
-		int result = scanf("%d", &age);
-		if (result == 0 || age <= 0 || age > 150)
-		{
-			printf("Age is incorrect!\n");
-			clean_stdin();
-		}
-		else
-			break;
-	}
-
-	ageCheck(age);
-	if (ageCheck(age) == 1)
-		printf("Access granted\n");
-	else printf("Access denied\n");
-
-	getchar();
-	getchar();
+	int age;
+	cout « "How old are you?\n";
+	cin » age;
+	if (ageCheck(age))
+		cout « "Access granted\n";
+	else
+		cout « "Access denied\n";
 	return 0;
 }

@@ -12,4 +12,5 @@ int main() {
 	else {
 		std::cout << "Access granted";
 	}
+return 0;
 }

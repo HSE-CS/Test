@@ -3,7 +3,7 @@
 #include <locale.h>
 #include "task1.h"
 
-void main()
+int main()
 {
 	int age;
 	scanf("%d", &age);
@@ -15,5 +15,4 @@ void main()
 	{
 		printf("Access denied");
 	}
-	getch();
 }

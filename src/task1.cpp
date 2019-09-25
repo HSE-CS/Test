@@ -1,11 +1,16 @@
 #include "task1.h"
-#include "pch.h"
-int ageCheck(int age)
-{
-	if (age >= 18) {
-		return(1);
+#include <iostream>
+#include <string>
+
+using namespace std; 
+
+int ageCheck(int age) {
+	if (age < 18) {
+		cout << "Access denied";
+		return 0;
 	}
 	else {
-		return(0);
+		cout << "Access granted";
+		return 1;
 	}
-};
+} 

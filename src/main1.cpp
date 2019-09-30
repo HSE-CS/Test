@@ -1,16 +1,15 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 #include "task1.h"
 
 int main()
 {
 	int age;
-	scanf("%i", &age);
+	std::cout << "Age?:";
+	std::cin >> age;
 	if (ageCheck(age) == 1)
-		printf("Access granted\n");
+		std::cout << "Access granted";
 	else 
-                printf("Access denied\n");
+                std::cout << "Access denied";
 
 
 	return 0;

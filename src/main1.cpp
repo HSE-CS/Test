@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <iostream.h>
+#include <iostream>
 #include "task1.h"
  
 int ageCheck(int age);

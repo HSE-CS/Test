@@ -1,19 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "stdafx.h"
 #include <stdio.h>
 #include "task1.h"
 
-int main()
+
+int main() 
 {
 	int age;
 	scanf("%d", &age);
-	if (ageCheck(age) == 1)
+	if (ageCheck(age)) 
 	{
 		printf("Access granted");
 	}
-	else
+	else 
 	{
 		printf("Access denied");
 	}
-	return(1);
+	return 1;
 } 

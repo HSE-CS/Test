@@ -1,5 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "stdafx.h"
-#include "conio.h"
 #include <locale.h>
 #include "task1.h"
 
@@ -15,4 +15,5 @@ int main()
 	{
 		printf("Access denied");
 	}
+	return(1);
 } 

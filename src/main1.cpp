@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "stdafx.h"
-#include <locale.h>
+#include <stdio.h>
 #include "task1.h"
 
 int main()

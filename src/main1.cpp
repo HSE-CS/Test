@@ -5,13 +5,7 @@
 using namespace std;
 
 int main() {
-  int check, age;
-  cin >> age;
-  check = ageCheck(age);
-  if (check == 1) {
-    cout << "Access granted";
-  } else {
-    cout << "Access denied";
-  }
-  return 0;
+	unsigned int max, min;
+	cin >> min >> max;
+	cout << findValue(min, max) << endl;
 }

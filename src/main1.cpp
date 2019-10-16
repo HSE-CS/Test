@@ -14,4 +14,7 @@ void main() {
 	else {
 		cout << "Access denied";
 	}
+	
+	
+	system("pause");
 }

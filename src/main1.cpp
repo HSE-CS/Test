@@ -8,7 +8,13 @@ void main() {
 	
 	cin >> age;
 	
-	ageCheck(age);
+	if (ageCheck(age)) {
+		cout << "Access granted";
+	}
+	else {
+		cout << "Access denied";
+	}
+	
 	
 	system("pause");
 }

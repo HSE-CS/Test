@@ -1,20 +1,15 @@
-#include <iostream>
+#define _USE_CRT_NO_WANINGS
+#include <stdio.h>
 #include "task1.h"
-using namespace std;
 
-void main() {
-
+int main() {
 	int age;
-	
-	cin >> age;
-	
+	scanf("%d", age);
 	if (ageCheck(age)) {
-		cout << "Access granted";
+		printf("Access granted");
 	}
 	else {
-		cout << "Access denied";
+		printf("Access denied");
 	}
-	
-	
-	system("pause");
+	return 0;
 }

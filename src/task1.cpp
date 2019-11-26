@@ -1,9 +1,10 @@
+#include <stdio.h>
 
 
-
-int ageCheck(int age){
-	if (age >= 18)
+int ageCheck(int a){
+	if (a >= 18)
 		return 1;
 	else
 		return 0;
-}
+} 
+

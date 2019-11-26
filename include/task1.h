@@ -1,4 +1,5 @@
+#pragma once
 #include <stdio.h>
 
 
-ageCheck(int age);
+int ageCheck(int age);
